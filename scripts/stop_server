@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/ec2-user/code_pipeline_test
+
+kill $(lsof -t -i:80)

@@ -1,7 +1,7 @@
 require 'thin'
 
 app = -> (env) do
-  [ 200, { "Content-Type" => "text/plain" }, ["Felipe Sadoyama\n"] ]
+  [ 200, { "Content-Type" => "text/plain" }, ["Romulo Mourão\n"] ]
 end
 
 run app
